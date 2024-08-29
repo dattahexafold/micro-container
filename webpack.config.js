@@ -10,6 +10,7 @@ module.exports = {
       directory: path.join(__dirname, 'dist'),
     },
     port: 3000,
+    historyApiFallback: true, // Add this line
   },
   output: {
     publicPath: 'auto',
