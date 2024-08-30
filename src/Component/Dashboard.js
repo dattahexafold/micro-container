@@ -5,6 +5,9 @@ const Dashboard = () => {
   const handleCardClick = () => {
     navigate("/microfrontend1/card");
   };
+  const handleCounterClick = () => {
+    navigate("/microfrontend1/about");
+  };
 
   return (
     <div className="dashboard">
@@ -12,7 +15,7 @@ const Dashboard = () => {
         <h2>Shopping Cart</h2>
         <p>View your items and proceed to checkout.</p>
       </div>
-      <div className="card">
+      <div className="card" onClick={handleCounterClick}>
         <h2>Analytics</h2>
         <p>Overview of your performance metrics.</p>
       </div>
