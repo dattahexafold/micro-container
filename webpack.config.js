@@ -20,7 +20,7 @@ module.exports = {
       name: 'container',
       filename: 'remoteEntry.js',
       remotes: {
-        microfrontend1: 'microfrontend1@http://localhost:3001/remoteEntry.js', // URL to the microfrontend
+        microfrontend1: 'microfrontend1@https://micro-app-ebon.vercel.app/remoteEntry.js', // URL to the microfrontend
       },
       shared: {
         react: { singleton: true },

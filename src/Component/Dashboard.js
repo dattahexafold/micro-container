@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 const Dashboard = () => {
   const navigate = useNavigate();
   const handleCardClick = () => {
-    navigate("/microfrontend1/card");
+    navigate("/microfrontend1");
   };
   const handleCounterClick = () => {
     navigate("/microfrontend1/about");
