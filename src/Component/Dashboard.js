@@ -19,14 +19,14 @@ const Dashboard = () => {
         <h2>Analytics</h2>
         <p>Overview of your performance metrics.</p>
       </div>
-      <div className="card">
+      {/* <div className="card">
         <h2>Notifications</h2>
         <p>Check your recent notifications and alerts.</p>
       </div>
       <div className="card">
         <h2>Profile</h2>
         <p>Manage your personal information and settings.</p>
-      </div>
+      </div> */}
     </div>
   );
 };
